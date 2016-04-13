@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Code List enumerating the values for the attribute "function" of the feature type "SolitaryVegetationObject" in the module "vegetation".
+
+  CityGML Version No. 2.0, February 2012.
+
+  This list is a suggestion of the SIG 3D of the initiative GDI-DE (see www.sig3d.org).
+  The code list has been compiled by SIG 3D members, particularly by Sandra Schlueter, Joachim Benner, Frank Bildstein,
+  Ruediger Drees, Andreas Kohlhaas and Mark Pendlington
+
+  The simple dictionary concept of GML 3.1.1 is used to represent the values (element "name") and the (by humans readable)
+  descriptions (element "description") of these values in this file. The values are used in instance documents.
+  By using the code type concept of GML 3.1.1, the attributes in instance documents can reference the corresponding dictionary file.
+
+  The code lists of the SIG 3D are structured as follows (and it is recommended that other CityGML code lists should be structured equally):
+
+          www.sig3d.org/codelists/standard/<moduleName>/<version>/<FeatureTypeName>_<propertyName>.xml
+
+  for example
+
+          www.sig3d.org/codelists/standard/building/2.0/_AbstractBuilding_class.xml
+
+ -->
+
+<gml:Dictionary xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd"
+	gml:id="SolitaryVegetationObject_function">
+	<gml:name>SolitaryVegetationObject_function</gml:name>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1">
+			<gml:description>shrub</gml:description>
+			<gml:name>1000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id2">
+			<gml:description>low plants</gml:description>
+			<gml:name>1010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id3">
+			<gml:description>medium high plants</gml:description>
+			<gml:name>1020</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id4">
+			<gml:description>high plants</gml:description>
+			<gml:name>1030</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5">
+			<gml:description>grasses</gml:description>
+			<gml:name>1040</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6">
+			<gml:description>ferns</gml:description>
+			<gml:name>1050</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7">
+			<gml:description>coniferous tree</gml:description>
+			<gml:name>1060</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id8">
+			<gml:description>decidous tree</gml:description>
+			<gml:name>1070</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id9">
+			<gml:description>bushes</gml:description>
+			<gml:name>1080</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id10">
+			<gml:description>aquatic plants</gml:description>
+			<gml:name>1090</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id11">
+			<gml:description>climber</gml:description>
+			<gml:name>1100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id12">
+			<gml:description>unknown</gml:description>
+			<gml:name>9999</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+</gml:Dictionary>

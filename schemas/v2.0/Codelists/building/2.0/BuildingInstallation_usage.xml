@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Code List enumerating the values for the attribute "usage" of the feature type "BuildingInstallation" in the module "building".
+
+  CityGML Version No. 2.0, February 2012.
+
+  This list is a suggestion of the SIG 3D of the initiative GDI-DE (see www.sig3d.org).
+  The code list has been compiled by SIG 3D members, particularly by Sandra Schlueter, Joachim Benner, Frank Bildstein,
+  Ruediger Drees, Andreas Kohlhaas and Mark Pendlington
+
+  The simple dictionary concept of GML 3.1.1 is used to represent the values (element "name") and the (by humans readable)
+  descriptions (element "description") of these values in this file. The values are used in instance documents.
+  By using the code type concept of GML 3.1.1, the attributes in instance documents can reference the corresponding dictionary file.
+
+  The code lists of the SIG 3D are structured as follows (and it is recommended that other CityGML code lists should be structured equally):
+
+          www.sig3d.org/codelists/standard/<moduleName>/<version>/<FeatureTypeName>_<propertyName>.xml
+
+  for example
+
+          www.sig3d.org/codelists/standard/building/2.0/_AbstractBuilding_class.xml
+
+ -->
+
+<gml:Dictionary xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd"
+	gml:id="BuildingInstallation_usage">
+	<gml:name>BuildingInstallation_usage</gml:name>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1">
+			<gml:description>balcony</gml:description>
+			<gml:name>1000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id2">
+			<gml:description>winter garden</gml:description>
+			<gml:name>1010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id3">
+			<gml:description>arcade</gml:description>
+			<gml:name>1020</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id4">
+			<gml:description>chimney (part of a building)</gml:description>
+			<gml:name>1030</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5">
+			<gml:description>tower (part of a building)</gml:description>
+			<gml:name>1040</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6">
+			<gml:description>column</gml:description>
+			<gml:name>1050</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7">
+			<gml:description>stairs</gml:description>
+			<gml:name>1060</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id8">
+			<gml:description>others</gml:description>
+			<gml:name>1070</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+</gml:Dictionary>

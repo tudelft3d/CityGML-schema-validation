@@ -1,0 +1,3809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Code List enumerating the values for the attribute "species" of the feature type "SolitaryVegetationObject" in the module "vegetation".
+
+  CityGML Version No. 2.0, February 2012.
+
+  This list is a suggestion of the SIG 3D of the initiative GDI-DE (see www.sig3d.org).
+  The code list has been compiled by SIG 3D members, particularly by Sandra Schlueter, Joachim Benner, Frank Bildstein,
+  Ruediger Drees, Andreas Kohlhaas and Mark Pendlington
+
+  The simple dictionary concept of GML 3.1.1 is used to represent the values (element "name") and the (by humans readable)
+  descriptions (element "description") of these values in this file. The values are used in instance documents.
+  By using the code type concept of GML 3.1.1, the attributes in instance documents can reference the corresponding dictionary file.
+
+  The code lists of the SIG 3D are structured as follows (and it is recommended that other CityGML code lists should be structured equally):
+
+          www.sig3d.org/codelists/standard/<moduleName>/<version>/<FeatureTypeName>_<propertyName>.xml
+
+  for example
+
+          www.sig3d.org/codelists/standard/building/2.0/_AbstractBuilding_class.xml
+
+ -->
+
+<gml:Dictionary xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.opengis.net/gml http://schemas.opengis.net/gml/3.1.1/profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd"
+	gml:id="SolitaryVegetationObject_species">
+	<gml:name>SolitaryVegetationObject_species</gml:name>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id1">
+			<gml:description>Picea</gml:description>
+			<gml:name>1000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id2">
+			<gml:description>Pinus</gml:description>
+			<gml:name>1010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id3">
+			<gml:description>Larix</gml:description>
+			<gml:name>1020</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id4">
+			<gml:description>Quercus</gml:description>
+			<gml:name>1030</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id5">
+			<gml:description>Fagus</gml:description>
+			<gml:name>1040</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id6">
+			<gml:description>Betula</gml:description>
+			<gml:name>1050</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id7">
+			<gml:description>Alnus</gml:description>
+			<gml:name>1060</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id8">
+			<gml:description>Populus</gml:description>
+			<gml:name>1070</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id9">
+			<gml:description>Salix</gml:description>
+			<gml:name>1080</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id10">
+			<gml:description>Acer</gml:description>
+			<gml:name>1090</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id11">
+			<gml:description>Fraxinus</gml:description>
+			<gml:name>1100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id12">
+			<gml:description>Arabis</gml:description>
+			<gml:name>1110</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id13">
+			<gml:description>Galeobdolon luteum</gml:description>
+			<gml:name>1120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id14">
+			<gml:description>Campanula poscharskyana</gml:description>
+			<gml:name>1130</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id15">
+			<gml:description>Galium odoratum</gml:description>
+			<gml:name>1140</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id16">
+			<gml:description>Allium ursinum</gml:description>
+			<gml:name>1150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id17">
+			<gml:description>Helleborus</gml:description>
+			<gml:name>1160</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id18">
+			<gml:description>Alchemilla</gml:description>
+			<gml:name>1170</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id19">
+			<gml:description>Iris</gml:description>
+			<gml:name>1180</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id20">
+			<gml:description>Begonia</gml:description>
+			<gml:name>1190</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id21">
+			<gml:description>Ranunculus asiaticus</gml:description>
+			<gml:name>1200</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id22">
+			<gml:description>Geranium Macrorrhizum Ingwersen</gml:description>
+			<gml:name>1210</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id23">
+			<gml:description>Pelargonie Burc Double</gml:description>
+			<gml:name>1220</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id24">
+			<gml:description>Euphorbia</gml:description>
+			<gml:name>1230</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id25">
+			<gml:description>Aqulilegia</gml:description>
+			<gml:name>1240</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id26">
+			<gml:description>Symphytum officinale</gml:description>
+			<gml:name>1250</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id27">
+			<gml:description>Sedum spectabile und Sedum telphium</gml:description>
+			<gml:name>1260</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id28">
+			<gml:description>Centaurea</gml:description>
+			<gml:name>1270</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id29">
+			<gml:description>Centaurea cysanus</gml:description>
+			<gml:name>1280</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id30">
+			<gml:description>Lychnis coronaria</gml:description>
+			<gml:name>1290</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id31">
+			<gml:description>Physalis</gml:description>
+			<gml:name>1300</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id32">
+			<gml:description>Coreopsis verticillata</gml:description>
+			<gml:name>1310</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id33">
+			<gml:description>Calendula</gml:description>
+			<gml:name>1320</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id34">
+			<gml:description>Phlox paniculata</gml:description>
+			<gml:name>1330</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id35">
+			<gml:description>Dianthus barbatus</gml:description>
+			<gml:name>1340</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id36">
+			<gml:description>Hemerocallis</gml:description>
+			<gml:name>1350</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id37">
+			<gml:description>Hemerocallis flava</gml:description>
+			<gml:name>1360</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id38">
+			<gml:description>Lythrum</gml:description>
+			<gml:name>1370</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id39">
+			<gml:description>Lysmachia</gml:description>
+			<gml:name>1380</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id40">
+			<gml:description>Aster novae</gml:description>
+			<gml:name>1390</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id41">
+			<gml:description>Cardiocrinum giganteum</gml:description>
+			<gml:name>1400</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id42">
+			<gml:description>Delphinium</gml:description>
+			<gml:name>1410</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id43">
+			<gml:description>Pteridium</gml:description>
+			<gml:name>1420</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id44">
+			<gml:description>Gymnocarpium dryopteris</gml:description>
+			<gml:name>1430</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id45">
+			<gml:description>Matteuccia struthiopteris</gml:description>
+			<gml:name>1440</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id46">
+			<gml:description>Magnolia Elisabeth</gml:description>
+			<gml:name>1450</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id47">
+			<gml:description>Hibiskus</gml:description>
+			<gml:name>1460</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id48">
+			<gml:description>Hydrangea</gml:description>
+			<gml:name>1470</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id49">
+			<gml:description>Cotinus coggygria</gml:description>
+			<gml:name>1480</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id50">
+			<gml:description>Euonymus europea</gml:description>
+			<gml:name>1490</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id51">
+			<gml:description>Rhododendron</gml:description>
+			<gml:name>1500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id52">
+			<gml:description>Pontederia</gml:description>
+			<gml:name>1510</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id53">
+			<gml:description>Clematis</gml:description>
+			<gml:name>1520</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id54">
+			<gml:description>Tropaeolum</gml:description>
+			<gml:name>1530</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id55">
+			<gml:description>Vicia, Lathyrus</gml:description>
+			<gml:name>1540</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id56">
+			<gml:description>Plumbago</gml:description>
+			<gml:name>1550</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id57">
+			<gml:description>Zantedeschia</gml:description>
+			<gml:name>1560</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id58">
+			<gml:description>Fuchsia</gml:description>
+			<gml:name>1570</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id59">
+			<gml:description>Gerbera</gml:description>
+			<gml:name>1580</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id60">
+			<gml:description>Nopalxochia</gml:description>
+			<gml:name>1590</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id61">
+			<gml:description>Hydrangea</gml:description>
+			<gml:name>1600</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id62">
+			<gml:description>Cassia</gml:description>
+			<gml:name>1610</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id63">
+			<gml:description>Cistus</gml:description>
+			<gml:name>1620</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id64">
+			<gml:description> Abienus festuschristus </gml:description>
+			<gml:name>1630</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id65">
+			<gml:description> Abies alba </gml:description>
+			<gml:name>1640</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id66">
+			<gml:description> Abies cephalonica </gml:description>
+			<gml:name>1650</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id67">
+			<gml:description> Abies concolor </gml:description>
+			<gml:name>1660</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id68">
+			<gml:description> Abies grandis </gml:description>
+			<gml:name>1670</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id69">
+			<gml:description> Abies homolepsis </gml:description>
+			<gml:name>1680</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id70">
+			<gml:description> Abies koreana </gml:description>
+			<gml:name>1690</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id71">
+			<gml:description> Abies lasiocarpa </gml:description>
+			<gml:name>1700</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id72">
+			<gml:description> Abies nordmanniana </gml:description>
+			<gml:name>1710</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id73">
+			<gml:description> Abies pinsapo </gml:description>
+			<gml:name>1720</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id74">
+			<gml:description> Abies procera </gml:description>
+			<gml:name>1730</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id75">
+			<gml:description> Abies procera 'Glauca' </gml:description>
+			<gml:name>1740</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id76">
+			<gml:description> Abies veitchii </gml:description>
+			<gml:name>1750</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id77">
+			<gml:description> Acer campéstre </gml:description>
+			<gml:name>1760</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id78">
+			<gml:description> Acer capillipes </gml:description>
+			<gml:name>1770</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id79">
+			<gml:description> Acer cappadocicum </gml:description>
+			<gml:name>1780</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id80">
+			<gml:description> Acer circinatum </gml:description>
+			<gml:name>1790</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id81">
+			<gml:description> Acer Davidii </gml:description>
+			<gml:name>1800</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id82">
+			<gml:description> Acer ginnala Maxim</gml:description>
+			<gml:name>1810</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id83">
+			<gml:description> Acer grosserii </gml:description>
+			<gml:name>1820</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id84">
+			<gml:description> Acer monspessulanum </gml:description>
+			<gml:name>1830</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id85">
+			<gml:description> Acer negundo </gml:description>
+			<gml:name>1840</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id86">
+			<gml:description> Acer palmatum </gml:description>
+			<gml:name>1850</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id87">
+			<gml:description> Acer platanoides </gml:description>
+			<gml:name>1860</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id88">
+			<gml:description> Acer platanoides 'Crimson King' </gml:description>
+			<gml:name>1870</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id89">
+			<gml:description> Acer pseudoplatanus </gml:description>
+			<gml:name>1880</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id90">
+			<gml:description> Acer rubrum </gml:description>
+			<gml:name>1890</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id91">
+			<gml:description> Acer saccharinum </gml:description>
+			<gml:name>1900</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id92">
+			<gml:description> Acer saccharum Marsch</gml:description>
+			<gml:name>1910</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id93">
+			<gml:description> Acer tartaricum </gml:description>
+			<gml:name>1920</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id94">
+			<gml:description> Aesculus hippocástanum </gml:description>
+			<gml:name>1930</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id95">
+			<gml:description> Aesculus x carnea </gml:description>
+			<gml:name>1940</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id96">
+			<gml:description> Afzelia africana </gml:description>
+			<gml:name>1950</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id97">
+			<gml:description> Ailanthus altissima </gml:description>
+			<gml:name>1960</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id98">
+			<gml:description> Alnus cordata </gml:description>
+			<gml:name>1970</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id99">
+			<gml:description> Alnus glutinosa </gml:description>
+			<gml:name>1980</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id100">
+			<gml:description> Alnus incána </gml:description>
+			<gml:name>1990</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id101">
+			<gml:description> Alnus viridis </gml:description>
+			<gml:name>2000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id102">
+			<gml:description> Amelánchier ovális </gml:description>
+			<gml:name>2010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id103">
+			<gml:description> Anacardium occidentale </gml:description>
+			<gml:name>2020</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id104">
+			<gml:description> Aralia elata </gml:description>
+			<gml:name>2030</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id105">
+			<gml:description> Araucaria araucana </gml:description>
+			<gml:name>2040</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id106">
+			<gml:description> Aucuba japonica </gml:description>
+			<gml:name>2050</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id107">
+			<gml:description> Berberis julianae </gml:description>
+			<gml:name>2060</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id108">
+			<gml:description> Berberis thunbergii </gml:description>
+			<gml:name>2070</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id109">
+			<gml:description> Betula alnoides </gml:description>
+			<gml:name>2080</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id110">
+			<gml:description> Betula costata </gml:description>
+			<gml:name>2090</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id111">
+			<gml:description> Betula davurica </gml:description>
+			<gml:name>2100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id112">
+			<gml:description> Betula ermanii </gml:description>
+			<gml:name>2110</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id113">
+			<gml:description> Betula papyrifera </gml:description>
+			<gml:name>2120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id114">
+			<gml:description> Bétula péndula </gml:description>
+			<gml:name>2130</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id115">
+			<gml:description> Betula pubescens </gml:description>
+			<gml:name>2140</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id116">
+			<gml:description> Broussonetia papyrifera </gml:description>
+			<gml:name>2150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id117">
+			<gml:description> Buddleja davidii </gml:description>
+			<gml:name>2160</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id118">
+			<gml:description> Butyrospermum parkii </gml:description>
+			<gml:name>2170</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id119">
+			<gml:description> Buxus sempervirens </gml:description>
+			<gml:name>2180</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id120">
+			<gml:description> Calocedrus decurrens </gml:description>
+			<gml:name>2190</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id121">
+			<gml:description> Calocedrus decurrens 'Aureovariegata' </gml:description>
+			<gml:name>2200</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id122">
+			<gml:description> Calycanthus floridus </gml:description>
+			<gml:name>2210</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id123">
+			<gml:description> Campsis radicans </gml:description>
+			<gml:name>2220</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id124">
+			<gml:description> Caragana arborescens </gml:description>
+			<gml:name>2230</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id125">
+			<gml:description> Carpínus bétulus </gml:description>
+			<gml:name>2240</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id126">
+			<gml:description> Cassia siberiana </gml:description>
+			<gml:name>2250</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id127">
+			<gml:description> Castanéa satíva </gml:description>
+			<gml:name>2260</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id128">
+			<gml:description> Catalpa bignonioides </gml:description>
+			<gml:name>2270</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id129">
+			<gml:description> Cedrela sinensis </gml:description>
+			<gml:name>2280</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id130">
+			<gml:description> Cedrus atlantica </gml:description>
+			<gml:name>2290</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id131">
+			<gml:description> Cedrus atlantica 'Glauca' </gml:description>
+			<gml:name>2300</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id132">
+			<gml:description> Cedrus deodara </gml:description>
+			<gml:name>2310</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id133">
+			<gml:description> Cedrus deodara var paktia </gml:description>
+			<gml:name>2320</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id134">
+			<gml:description> Cedrus libani </gml:description>
+			<gml:name>2330</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id135">
+			<gml:description> Celtis occidentalis </gml:description>
+			<gml:name>2340</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id136">
+			<gml:description> Cercis siliquastrum </gml:description>
+			<gml:name>2350</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id137">
+			<gml:description> Chaenomeles japonica </gml:description>
+			<gml:name>2360</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id138">
+			<gml:description> Chamaecyparis lawsonia </gml:description>
+			<gml:name>2370</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id139">
+			<gml:description> Chamaecyparis nootkatensis </gml:description>
+			<gml:name>2380</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id140">
+			<gml:description> Chionanthus virginicus </gml:description>
+			<gml:name>2390</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id141">
+			<gml:description> Cladrastis lutea </gml:description>
+			<gml:name>2400</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id142">
+			<gml:description> Clematis montana </gml:description>
+			<gml:name>2410</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id143">
+			<gml:description> Clematis vitalba </gml:description>
+			<gml:name>2420</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id144">
+			<gml:description> Colutea arborescens </gml:description>
+			<gml:name>2430</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id145">
+			<gml:description> Cornus alba </gml:description>
+			<gml:name>2440</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id146">
+			<gml:description> Cornus florida </gml:description>
+			<gml:name>2450</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id147">
+			<gml:description> Cornus mas </gml:description>
+			<gml:name>2460</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id148">
+			<gml:description> Cornus sanguinea </gml:description>
+			<gml:name>2470</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id149">
+			<gml:description> Córylus avellána </gml:description>
+			<gml:name>2480</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id150">
+			<gml:description> Corylus avellana 'Contorta' </gml:description>
+			<gml:name>2490</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id151">
+			<gml:description> Córylus colúrna </gml:description>
+			<gml:name>2500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id152">
+			<gml:description> Corylus maxima </gml:description>
+			<gml:name>2510</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id153">
+			<gml:description> Cotinus coggygria </gml:description>
+			<gml:name>2520</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id154">
+			<gml:description> Cotoneaster frigidus </gml:description>
+			<gml:name>2530</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id155">
+			<gml:description> Crataegus laevigata </gml:description>
+			<gml:name>2540</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id156">
+			<gml:description> Crataegus laevigata 'Paul's Scarlet' </gml:description>
+			<gml:name>2550</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id157">
+			<gml:description> Crataegus lavallei 'Carrierei' </gml:description>
+			<gml:name>2560</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id158">
+			<gml:description> Crataegus monogyna </gml:description>
+			<gml:name>2570</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id159">
+			<gml:description> Cryptomeria japonica </gml:description>
+			<gml:name>2580</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id160">
+			<gml:description> Cupressus arizonica </gml:description>
+			<gml:name>2590</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id161">
+			<gml:description> Cupressus sempervirens </gml:description>
+			<gml:name>2600</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id162">
+			<gml:description> Davidia involucrata </gml:description>
+			<gml:name>2610</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id163">
+			<gml:description> Delonix regia </gml:description>
+			<gml:name>2620</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id164">
+			<gml:description> Deutzia scabra </gml:description>
+			<gml:name>2630</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id165">
+			<gml:description> Dracaena draco </gml:description>
+			<gml:name>2640</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id166">
+			<gml:description> Elaeagnus angustifolia </gml:description>
+			<gml:name>2650</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id167">
+			<gml:description> Elaeagnus umbellata </gml:description>
+			<gml:name>2660</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id168">
+			<gml:description> Euonymus alatus </gml:description>
+			<gml:name>2670</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id169">
+			<gml:description> Euonymus europaeus </gml:description>
+			<gml:name>2680</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id170">
+			<gml:description> Euonymus planipes </gml:description>
+			<gml:name>2690</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id171">
+			<gml:description> Fagus orientalis </gml:description>
+			<gml:name>2700</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id172">
+			<gml:description> Fagus sylvatica </gml:description>
+			<gml:name>2710</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id173">
+			<gml:description> Fagus sylvatica 'Pendula' </gml:description>
+			<gml:name>2720</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id174">
+			<gml:description> Fágus sylvática purpuréa </gml:description>
+			<gml:name>2730</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id175">
+			<gml:description> Ficus carica </gml:description>
+			<gml:name>2740</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id176">
+			<gml:description> Forsythia x intermedia </gml:description>
+			<gml:name>2750</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id177">
+			<gml:description> Frangula alnus </gml:description>
+			<gml:name>2760</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id178">
+			<gml:description> Fraxínus excélsior </gml:description>
+			<gml:name>2770</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id179">
+			<gml:description> Fraxinus latifolia </gml:description>
+			<gml:name>2780</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id180">
+			<gml:description> Fraxinus ornus </gml:description>
+			<gml:name>2790</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id181">
+			<gml:description> Fraxinus paxiana </gml:description>
+			<gml:name>2800</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id182">
+			<gml:description> Ginkgo biloba L</gml:description>
+			<gml:name>2810</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id183">
+			<gml:description> Gleditsia triacanthos </gml:description>
+			<gml:name>2820</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id184">
+			<gml:description> Halesia carolina </gml:description>
+			<gml:name>2830</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id185">
+			<gml:description> Hamamelis virginiana </gml:description>
+			<gml:name>2840</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id186">
+			<gml:description> Hamamelis x intermedia </gml:description>
+			<gml:name>2850</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id187">
+			<gml:description> Hedera helix </gml:description>
+			<gml:name>2860</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id188">
+			<gml:description> Hibiscus syriacus </gml:description>
+			<gml:name>2870</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id189">
+			<gml:description> Hippophae rhamnoides </gml:description>
+			<gml:name>2880</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id190">
+			<gml:description> Ilex aquifolium </gml:description>
+			<gml:name>2890</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id191">
+			<gml:description> Jasminum nudiflorum </gml:description>
+			<gml:name>2900</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id192">
+			<gml:description> Juglans nigra </gml:description>
+			<gml:name>2910</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id193">
+			<gml:description> Juglans regia </gml:description>
+			<gml:name>2920</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id194">
+			<gml:description> Juniperus communis </gml:description>
+			<gml:name>2930</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id195">
+			<gml:description> Juniperus sabina </gml:description>
+			<gml:name>2940</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id196">
+			<gml:description> Kerria japonica 'Pleniflora' </gml:description>
+			<gml:name>2950</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id197">
+			<gml:description> Khaya senegalensis </gml:description>
+			<gml:name>2960</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id198">
+			<gml:description> Koelreuteria paniculata </gml:description>
+			<gml:name>2970</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id199">
+			<gml:description> Kolkwitzia amabilis </gml:description>
+			<gml:name>2980</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id200">
+			<gml:description> Laburnum alpinum </gml:description>
+			<gml:name>2990</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id201">
+			<gml:description> Laburnum anagyroides </gml:description>
+			<gml:name>3000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id202">
+			<gml:description> Larix decidua </gml:description>
+			<gml:name>3010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id203">
+			<gml:description> Larix kaempferi </gml:description>
+			<gml:name>3020</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id204">
+			<gml:description> Ligustrum vulgare </gml:description>
+			<gml:name>3030</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id205">
+			<gml:description> Liquidambar orientalis </gml:description>
+			<gml:name>3040</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id206">
+			<gml:description> Liquidambar styraciflua </gml:description>
+			<gml:name>3050</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id207">
+			<gml:description> Liriodendron tulipifera </gml:description>
+			<gml:name>3060</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id208">
+			<gml:description> Lonicera maackii </gml:description>
+			<gml:name>3070</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id209">
+			<gml:description> Lonicera tartarica </gml:description>
+			<gml:name>3080</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id210">
+			<gml:description> Lonicera x heckrottii </gml:description>
+			<gml:name>3090</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id211">
+			<gml:description> Lonicera xylosteum </gml:description>
+			<gml:name>3100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id212">
+			<gml:description> Magnolia x soulangiana </gml:description>
+			<gml:name>3110</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id213">
+			<gml:description> Mahonia aquifolium </gml:description>
+			<gml:name>3120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id214">
+			<gml:description> Malus floribunda </gml:description>
+			<gml:name>3130</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id215">
+			<gml:description> Málus sylvéstris </gml:description>
+			<gml:name>3140</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id216">
+			<gml:description> Malus toringoides </gml:description>
+			<gml:name>3150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id217">
+			<gml:description> Mespilus germanica </gml:description>
+			<gml:name>3160</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id218">
+			<gml:description> Metasequoia glyptostroboides </gml:description>
+			<gml:name>3170</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id219">
+			<gml:description> Ostrya carpinifolia </gml:description>
+			<gml:name>3180</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id220">
+			<gml:description> Parrotia persica </gml:description>
+			<gml:name>3190</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id221">
+			<gml:description> Parthenocissus quinquefolia </gml:description>
+			<gml:name>3200</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id222">
+			<gml:description> Parthenocissus tricuspidata </gml:description>
+			<gml:name>3210</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id223">
+			<gml:description> Paulownia tomentosa </gml:description>
+			<gml:name>3220</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id224">
+			<gml:description> Philadelphus coronarius </gml:description>
+			<gml:name>3230</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id225">
+			<gml:description> Picea abies </gml:description>
+			<gml:name>3240</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id226">
+			<gml:description> Picea abies 'Inversa' </gml:description>
+			<gml:name>3250</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id227">
+			<gml:description> Picea asperata </gml:description>
+			<gml:name>3260</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id228">
+			<gml:description> Picea engelmanii </gml:description>
+			<gml:name>3270</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id229">
+			<gml:description> Picea glauca </gml:description>
+			<gml:name>3280</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id230">
+			<gml:description> Picea glauca 'Conica' </gml:description>
+			<gml:name>3290</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id231">
+			<gml:description> Picea omorika </gml:description>
+			<gml:name>3300</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id232">
+			<gml:description> Picea orientalis </gml:description>
+			<gml:name>3310</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id233">
+			<gml:description> Picea polita </gml:description>
+			<gml:name>3320</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id234">
+			<gml:description> Picea pungens 'Glauca' </gml:description>
+			<gml:name>3330</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id235">
+			<gml:description> Picea sitchensis </gml:description>
+			<gml:name>3340</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id236">
+			<gml:description> Pinus aristata </gml:description>
+			<gml:name>3350</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id237">
+			<gml:description> Pinus armandii </gml:description>
+			<gml:name>3360</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id238">
+			<gml:description> Pinus cembra </gml:description>
+			<gml:name>3370</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id239">
+			<gml:description> Pinus contorta </gml:description>
+			<gml:name>3380</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id240">
+			<gml:description> Pinus heldreichii </gml:description>
+			<gml:name>3390</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id241">
+			<gml:description> Pinus jeffreyi </gml:description>
+			<gml:name>3400</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id242">
+			<gml:description> Pinus koraiensis </gml:description>
+			<gml:name>3410</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id243">
+			<gml:description> Pinus leucodermis </gml:description>
+			<gml:name>3420</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id244">
+			<gml:description> Pinus mugo </gml:description>
+			<gml:name>3430</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id245">
+			<gml:description> Pinus nigra </gml:description>
+			<gml:name>3440</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id246">
+			<gml:description> Pinus nigra var</gml:description>
+			<gml:name>3450</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id247">
+			<gml:description> Pinus nigra var</gml:description>
+			<gml:name>3460</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id248">
+			<gml:description> Pinus parviflora </gml:description>
+			<gml:name>3470</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id249">
+			<gml:description> Pinus peuce </gml:description>
+			<gml:name>3480</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id250">
+			<gml:description> Pinus ponderosa </gml:description>
+			<gml:name>3490</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id251">
+			<gml:description> Pinus strobus </gml:description>
+			<gml:name>3500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id252">
+			<gml:description> Pinus sylvestris </gml:description>
+			<gml:name>3510</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id253">
+			<gml:description> Pinus thunbergii </gml:description>
+			<gml:name>3520</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id254">
+			<gml:description> Pinus wallichiana </gml:description>
+			<gml:name>3530</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id255">
+			<gml:description> Platanus acerifolia </gml:description>
+			<gml:name>3540</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id256">
+			<gml:description> Platanus orientalis </gml:description>
+			<gml:name>3550</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id257">
+			<gml:description> Platycladus orientalis </gml:description>
+			<gml:name>3560</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id258">
+			<gml:description> Populus alba </gml:description>
+			<gml:name>3570</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id259">
+			<gml:description> Populus nigra</gml:description>
+			<gml:name>3580</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id260">
+			<gml:description> Populus simonii </gml:description>
+			<gml:name>3590</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id261">
+			<gml:description> Populus tremula </gml:description>
+			<gml:name>3600</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id262">
+			<gml:description> Populus x canadensis </gml:description>
+			<gml:name>3610</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id263">
+			<gml:description> Populus x canescens </gml:description>
+			<gml:name>3620</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id264">
+			<gml:description> Prunus avium </gml:description>
+			<gml:name>3630</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id265">
+			<gml:description> Prunus cerasifera 'Nigra' </gml:description>
+			<gml:name>3640</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id266">
+			<gml:description> Prunus domestica </gml:description>
+			<gml:name>3650</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id267">
+			<gml:description> Prunus domestica ssp</gml:description>
+			<gml:name>3660</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id268">
+			<gml:description> Prunus dulcis </gml:description>
+			<gml:name>3670</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id269">
+			<gml:description> Prunus laurocerasus </gml:description>
+			<gml:name>3680</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id270">
+			<gml:description> Prúnus pádus </gml:description>
+			<gml:name>3690</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id271">
+			<gml:description> Prunus sargentii </gml:description>
+			<gml:name>3700</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id272">
+			<gml:description> Prunus serotina </gml:description>
+			<gml:name>3710</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id273">
+			<gml:description> Prunus serrulata </gml:description>
+			<gml:name>3720</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id274">
+			<gml:description> Prunus spinosa </gml:description>
+			<gml:name>3730</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id275">
+			<gml:description> Prunus subhirtella </gml:description>
+			<gml:name>3740</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id276">
+			<gml:description> Pseudotsuga menziesii </gml:description>
+			<gml:name>3750</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id277">
+			<gml:description> Ptelea trifoliata </gml:description>
+			<gml:name>3760</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id278">
+			<gml:description> Pterocarya fraxinifolia </gml:description>
+			<gml:name>3770</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id279">
+			<gml:description> Pterocarya stenoptera </gml:description>
+			<gml:name>3780</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id280">
+			<gml:description> Pyracantha coccinea </gml:description>
+			<gml:name>3790</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id281">
+			<gml:description> Pýrus pyráster </gml:description>
+			<gml:name>3800</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id282">
+			<gml:description> Quercus acutissima </gml:description>
+			<gml:name>3810</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id283">
+			<gml:description> Quercus cerris </gml:description>
+			<gml:name>3820</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id284">
+			<gml:description> Quercus coccinea </gml:description>
+			<gml:name>3830</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id285">
+			<gml:description> Quercus frainetto </gml:description>
+			<gml:name>3840</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id286">
+			<gml:description> Quercus ilex </gml:description>
+			<gml:name>3850</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id287">
+			<gml:description> Quercus libani </gml:description>
+			<gml:name>3860</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id288">
+			<gml:description> Quercus palustris </gml:description>
+			<gml:name>3870</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id289">
+			<gml:description> Quercus petraea </gml:description>
+			<gml:name>3880</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id290">
+			<gml:description> Quercus prinus </gml:description>
+			<gml:name>3890</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id291">
+			<gml:description> Quercus pubescens </gml:description>
+			<gml:name>3900</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id292">
+			<gml:description> Quercus robur </gml:description>
+			<gml:name>3910</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id293">
+			<gml:description> Quercus rubra </gml:description>
+			<gml:name>3920</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id294">
+			<gml:description> Quercus suber </gml:description>
+			<gml:name>3930</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id295">
+			<gml:description> Quercus x hispanica 'Lucombeana' </gml:description>
+			<gml:name>3940</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id296">
+			<gml:description> Quercus x turneri </gml:description>
+			<gml:name>3950</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id297">
+			<gml:description> Rhamnus cathartica </gml:description>
+			<gml:name>3960</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id298">
+			<gml:description> Rhamnus imeretinus </gml:description>
+			<gml:name>3970</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id299">
+			<gml:description> Rhodotypos scandens </gml:description>
+			<gml:name>3980</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id300">
+			<gml:description> Rhus hirta </gml:description>
+			<gml:name>3990</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id301">
+			<gml:description> Ribes aureum </gml:description>
+			<gml:name>4000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id302">
+			<gml:description> Ribes sanguineum </gml:description>
+			<gml:name>4010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id303">
+			<gml:description> Robinia pseudoacacia </gml:description>
+			<gml:name>4020</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id304">
+			<gml:description> Rosa canina </gml:description>
+			<gml:name>4030</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id305">
+			<gml:description> Rosa spinosissima </gml:description>
+			<gml:name>4040</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id306">
+			<gml:description> Rubus fruticosus </gml:description>
+			<gml:name>4050</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id307">
+			<gml:description> Salix alba </gml:description>
+			<gml:name>4060</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id308">
+			<gml:description> Salix alba 'Tristis' </gml:description>
+			<gml:name>4070</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id309">
+			<gml:description> Salix aurita </gml:description>
+			<gml:name>4080</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id310">
+			<gml:description> Salix babylonica </gml:description>
+			<gml:name>4090</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id311">
+			<gml:description> Salix caprea </gml:description>
+			<gml:name>4100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id312">
+			<gml:description> Salix caprea 'Kilmarnock' </gml:description>
+			<gml:name>4110</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id313">
+			<gml:description> Salix cinerea </gml:description>
+			<gml:name>4120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id314">
+			<gml:description> Salix fragilis </gml:description>
+			<gml:name>4130</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id315">
+			<gml:description> Salix matsudana 'Tortuosa' </gml:description>
+			<gml:name>4140</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id316">
+			<gml:description> Salix viminalis </gml:description>
+			<gml:name>4150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id317">
+			<gml:description> Sambucus nigra </gml:description>
+			<gml:name>4160</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id318">
+			<gml:description> Sambucus racemosa </gml:description>
+			<gml:name>4170</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id319">
+			<gml:description> Sciadopitys verticillata </gml:description>
+			<gml:name>4180</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id320">
+			<gml:description> Sequoia sempervirens </gml:description>
+			<gml:name>4190</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id321">
+			<gml:description> Sequoiadendron giganteum </gml:description>
+			<gml:name>4200</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id322">
+			<gml:description> Shepherdia argentea </gml:description>
+			<gml:name>4210</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id323">
+			<gml:description> Sophora japonica </gml:description>
+			<gml:name>4220</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id324">
+			<gml:description> Sorbus aria </gml:description>
+			<gml:name>4230</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id325">
+			<gml:description> Sórbus aucupária </gml:description>
+			<gml:name>4240</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id326">
+			<gml:description> Sorbus domestica </gml:description>
+			<gml:name>4250</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id327">
+			<gml:description> Sorbus intermedia </gml:description>
+			<gml:name>4260</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id328">
+			<gml:description> Sorbus torminalis </gml:description>
+			<gml:name>4270</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id329">
+			<gml:description> Spiraea x billardii </gml:description>
+			<gml:name>4280</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id330">
+			<gml:description> Spiraea x vanhouttei </gml:description>
+			<gml:name>4290</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id331">
+			<gml:description> Staphylea pinnata </gml:description>
+			<gml:name>4300</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id332">
+			<gml:description> Stranvaesia davidiana </gml:description>
+			<gml:name>4310</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id333">
+			<gml:description> Symphoricarpos albus </gml:description>
+			<gml:name>4320</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id334">
+			<gml:description> Syringa reflexa </gml:description>
+			<gml:name>4330</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id335">
+			<gml:description> Syringa vulgaris </gml:description>
+			<gml:name>4340</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id336">
+			<gml:description> Tamarix parviflora </gml:description>
+			<gml:name>4350</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id337">
+			<gml:description> Taxodium distichum </gml:description>
+			<gml:name>4360</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id338">
+			<gml:description> Taxus baccata </gml:description>
+			<gml:name>4370</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id339">
+			<gml:description> Thuja occidentalis </gml:description>
+			<gml:name>4380</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id340">
+			<gml:description> Thuja plicata </gml:description>
+			<gml:name>4390</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id341">
+			<gml:description> Thujopsis dolabrata </gml:description>
+			<gml:name>4400</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id342">
+			<gml:description> Tília cordáta </gml:description>
+			<gml:name>4410</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id343">
+			<gml:description> Tilia platyphyllos </gml:description>
+			<gml:name>4420</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id344">
+			<gml:description> Tilia tomentosa </gml:description>
+			<gml:name>4430</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id345">
+			<gml:description> Tsuga canadensis </gml:description>
+			<gml:name>4440</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id346">
+			<gml:description> Ulex europaeus </gml:description>
+			<gml:name>4450</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id347">
+			<gml:description> Úlmus glábra </gml:description>
+			<gml:name>4460</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id348">
+			<gml:description> Ulmus laevis </gml:description>
+			<gml:name>4470</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id349">
+			<gml:description> Úlmus mínor </gml:description>
+			<gml:name>4480</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id350">
+			<gml:description> Ulmus pumila </gml:description>
+			<gml:name>4490</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id351">
+			<gml:description> Viburnum farreri </gml:description>
+			<gml:name>4500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id352">
+			<gml:description> Viburnum lantana </gml:description>
+			<gml:name>4510</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id353">
+			<gml:description> Viburnum lentago </gml:description>
+			<gml:name>4520</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id354">
+			<gml:description> Viburnum opulus </gml:description>
+			<gml:name>4530</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id355">
+			<gml:description> Viburnum rhytidophyllum </gml:description>
+			<gml:name>4540</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id356">
+			<gml:description> Viburnum tinus </gml:description>
+			<gml:name>4550</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id357">
+			<gml:description> Viburnum x bodnantense </gml:description>
+			<gml:name>4560</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id358">
+			<gml:description> Viscum album </gml:description>
+			<gml:name>4570</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id359">
+			<gml:description> Vitis coignetiae </gml:description>
+			<gml:name>4580</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id360">
+			<gml:description> Weigela florida </gml:description>
+			<gml:name>4590</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id361">
+			<gml:description> Wisteria sinensis </gml:description>
+			<gml:name>4600</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id362">
+			<gml:description> Zelkova serrata </gml:description>
+			<gml:name>4610</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id363">
+			<gml:description>Acer  </gml:description>
+			<gml:name>4620</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id364">
+			<gml:description>Actinidia Lind </gml:description>
+			<gml:name>4630</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id365">
+			<gml:description>Aeschynanthus Jack</gml:description>
+			<gml:name>4640</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id366">
+			<gml:description>Ageratum  </gml:description>
+			<gml:name>4650</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id367">
+			<gml:description>Agrostemma githago  </gml:description>
+			<gml:name>4660</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id368">
+			<gml:description>Agrostis  </gml:description>
+			<gml:name>4670</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id369">
+			<gml:description>Allium cepa  </gml:description>
+			<gml:name>4680</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id370">
+			<gml:description>Allium fistulosum  </gml:description>
+			<gml:name>4690</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id371">
+			<gml:description>Allium porrum  </gml:description>
+			<gml:name>4700</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id372">
+			<gml:description>Allium schoenoprasum  </gml:description>
+			<gml:name>4710</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id373">
+			<gml:description>Aloe  </gml:description>
+			<gml:name>4720</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id374">
+			<gml:description>Alonsoa meridionalis ( f.) O. Kuntze</gml:description>
+			<gml:name>4730</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id375">
+			<gml:description>Alopecurus pratensis  </gml:description>
+			<gml:name>4740</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id376">
+			<gml:description>Alstroemeria  </gml:description>
+			<gml:name>4750</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id377">
+			<gml:description>Amaranthus blitoides S. Watson</gml:description>
+			<gml:name>4760</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id378">
+			<gml:description>Amaranthus cruentus  </gml:description>
+			<gml:name>4770</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id379">
+			<gml:description>Anigozanthos Labil </gml:description>
+			<gml:name>4780</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id380">
+			<gml:description>Anthriscus cerefolium ( ) Hoffm.</gml:description>
+			<gml:name>4790</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id381">
+			<gml:description>Anthurium Schott</gml:description>
+			<gml:name>4800</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id382">
+			<gml:description>Antirrhinum  </gml:description>
+			<gml:name>4810</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id383">
+			<gml:description>Apium graveolens  </gml:description>
+			<gml:name>4820</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id384">
+			<gml:description>Arctium  </gml:description>
+			<gml:name>4830</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id385">
+			<gml:description>Argyranthemum frutescens ( ) Schultz Bip.</gml:description>
+			<gml:name>4840</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id386">
+			<gml:description>Arnica montana  </gml:description>
+			<gml:name>4850</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id387">
+			<gml:description>Aronia Medik.</gml:description>
+			<gml:name>4860</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id388">
+			<gml:description>Arrhenatherum elatius ( ) P.Beauv. ex J.S. et K.B. Presl</gml:description>
+			<gml:name>4870</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id389">
+			<gml:description>Asparagus officinalis  </gml:description>
+			<gml:name>4880</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id390">
+			<gml:description>Aster  </gml:description>
+			<gml:name>4890</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id391">
+			<gml:description>Aubrieta Adans.</gml:description>
+			<gml:name>4900</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id392">
+			<gml:description>Avena sativa  </gml:description>
+			<gml:name>4910</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id393">
+			<gml:description>Avena sativa  </gml:description>
+			<gml:name>4920</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id394">
+			<gml:description>Begonia x hiemalis Fotsch</gml:description>
+			<gml:name>4930</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id395">
+			<gml:description>Begonia x tuberhybrida Voss</gml:description>
+			<gml:name>4940</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id396">
+			<gml:description>Begonia-Semperflorens-Hybriden</gml:description>
+			<gml:name>4950</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id397">
+			<gml:description>Beta vulgaris   var. altissima Döll</gml:description>
+			<gml:name>4960</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id398">
+			<gml:description>Beta vulgaris   var. conditiva Alef.</gml:description>
+			<gml:name>4970</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id399">
+			<gml:description>Beta vulgaris   var. crassa Mansf.</gml:description>
+			<gml:name>4980</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id400">
+			<gml:description>Beta vulgaris   var. vulgaris</gml:description>
+			<gml:name>4990</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id401">
+			<gml:description>Bidens ferulifolia (Jacq.) DC.</gml:description>
+			<gml:name>5000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id402">
+			<gml:description>Brachyscome Cass.</gml:description>
+			<gml:name>5010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id403">
+			<gml:description>Brassica juncea ( ) Czernj. et Cosson</gml:description>
+			<gml:name>5020</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id404">
+			<gml:description>Brassica napus   (partim)</gml:description>
+			<gml:name>5030</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id405">
+			<gml:description>Brassica napus   (partim)</gml:description>
+			<gml:name>5040</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id406">
+			<gml:description>Brassica napus   var. napobrassica ( ) Rchb.</gml:description>
+			<gml:name>5050</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id407">
+			<gml:description>Brassica oleracea   convar. acephala (DC.) Alef. var. gongylodes</gml:description>
+			<gml:name>5060</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id408">
+			<gml:description>Brassica oleracea   convar. acephala (DC.) Alef. var. medullosa Thel  und var. viridis  </gml:description>
+			<gml:name>5070</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id409">
+			<gml:description>Brassica oleracea   convar. acephala (DC.) Alef. var. sabellica  </gml:description>
+			<gml:name>5080</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id410">
+			<gml:description>Brassica oleracea   convar. botrytis ( ) Alef. var. botrytis  </gml:description>
+			<gml:name>5090</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id411">
+			<gml:description>Brassica oleracea   convar. botrytis ( ) Alef. var. cymosa Duch.</gml:description>
+			<gml:name>5100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id412">
+			<gml:description>Brassica oleracea   convar. capitata ( ) Alef. var. alba DC.</gml:description>
+			<gml:name>5110</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id413">
+			<gml:description>Brassica oleracea   convar. capitata ( ) Alef. var. rubra DC.</gml:description>
+			<gml:name>5120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id414">
+			<gml:description>Brassica oleracea   convar. capitata ( ) Alef. var. sabauda  </gml:description>
+			<gml:name>5130</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id415">
+			<gml:description>Brassica oleracea   convar. oleracea var. gemmifera DC.</gml:description>
+			<gml:name>5140</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id416">
+			<gml:description>Brassica rapa   var. rapa</gml:description>
+			<gml:name>5150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id417">
+			<gml:description>Brassica rapa   var. rapa</gml:description>
+			<gml:name>5160</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id418">
+			<gml:description>Brassica rapa   var. silvestris (Lam.) Briggs</gml:description>
+			<gml:name>5170</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id419">
+			<gml:description>Brassica rapa   var. silvestris (Lam.) Briggs</gml:description>
+			<gml:name>5180</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id420">
+			<gml:description>Bromus  </gml:description>
+			<gml:name>5190</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id421">
+			<gml:description>Brunnera macrophylla (Adams) Johnst.</gml:description>
+			<gml:name>5200</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id422">
+			<gml:description>Calceolaria  </gml:description>
+			<gml:name>5210</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id423">
+			<gml:description>Calluna vulgaris ( ) Hull</gml:description>
+			<gml:name>5220</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id424">
+			<gml:description>Camelina sativa ( ) Crantz</gml:description>
+			<gml:name>5230</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id425">
+			<gml:description>Cannabis sativa  </gml:description>
+			<gml:name>5240</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id426">
+			<gml:description>Capsicum annuum  </gml:description>
+			<gml:name>5250</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id427">
+			<gml:description>Carex  </gml:description>
+			<gml:name>5260</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id428">
+			<gml:description>Carthamus tinctorius  </gml:description>
+			<gml:name>5270</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id429">
+			<gml:description>Celosia  </gml:description>
+			<gml:name>5280</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id430">
+			<gml:description>Chamomilla recutita ( ) Rauschert</gml:description>
+			<gml:name>5290</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id431">
+			<gml:description>Cichorium endivia  </gml:description>
+			<gml:name>5300</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id432">
+			<gml:description>Clematis  </gml:description>
+			<gml:name>5310</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id433">
+			<gml:description>Convallaria majalis  </gml:description>
+			<gml:name>5320</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id434">
+			<gml:description>Coronilla varia  </gml:description>
+			<gml:name>5330</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id435">
+			<gml:description>Corylus  </gml:description>
+			<gml:name>5340</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id436">
+			<gml:description>Crassula schmidtii Regel</gml:description>
+			<gml:name>5350</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id437">
+			<gml:description>Cucumis sativus  </gml:description>
+			<gml:name>5360</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id438">
+			<gml:description>Cucurbita  </gml:description>
+			<gml:name>5370</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id439">
+			<gml:description>Cucurbita pepo  </gml:description>
+			<gml:name>5380</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id440">
+			<gml:description>Cuphea P. Br.</gml:description>
+			<gml:name>5390</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id441">
+			<gml:description>Cydonia oblonga Mil </gml:description>
+			<gml:name>5400</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id442">
+			<gml:description>Cynara cardunculus  </gml:description>
+			<gml:name>5410</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id443">
+			<gml:description>Cynara scolymus  </gml:description>
+			<gml:name>5420</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id444">
+			<gml:description>Daboecia cantabrica (Huds.) K. Koch</gml:description>
+			<gml:name>5430</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id445">
+			<gml:description>Dactylis  </gml:description>
+			<gml:name>5440</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id446">
+			<gml:description>Dahlia Cav.</gml:description>
+			<gml:name>5450</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id447">
+			<gml:description>Daucus carota  </gml:description>
+			<gml:name>5460</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id448">
+			<gml:description>Daucus carota  </gml:description>
+			<gml:name>5470</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id449">
+			<gml:description>Dendranthema x grandiflorum (Ramat.) Kitam.</gml:description>
+			<gml:name>5480</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id450">
+			<gml:description>Deschampsia cespitosa ( ) P. Beauv.</gml:description>
+			<gml:name>5490</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id451">
+			<gml:description>Dianthus  </gml:description>
+			<gml:name>5500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id452">
+			<gml:description>Digitalis  </gml:description>
+			<gml:name>5510</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id453">
+			<gml:description>Dracocephalum moldavica  </gml:description>
+			<gml:name>5520</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id454">
+			<gml:description>Echinodorus   C. Rich. ex Engelm.</gml:description>
+			<gml:name>5530</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id455">
+			<gml:description>Erica  </gml:description>
+			<gml:name>5540</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id456">
+			<gml:description>Euonymus fortunei (Turcz.) Hand.-Mazz.</gml:description>
+			<gml:name>5550</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id457">
+			<gml:description>Euphorbia fulgens Karw. ex Klotzsch</gml:description>
+			<gml:name>5560</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id458">
+			<gml:description>Euphorbia milii Des Mou  var. milii</gml:description>
+			<gml:name>5570</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id459">
+			<gml:description>Euphorbia pulcherrima Willd. ex Klotzsch</gml:description>
+			<gml:name>5580</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id460">
+			<gml:description>Fagopyrum Mil </gml:description>
+			<gml:name>5590</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id461">
+			<gml:description>Festuca arundinacea Schreber</gml:description>
+			<gml:name>5600</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id462">
+			<gml:description>Festuca ovina   sensu lato</gml:description>
+			<gml:name>5610</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id463">
+			<gml:description>Festuca pratensis Hudson</gml:description>
+			<gml:name>5620</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id464">
+			<gml:description>Festuca rubra   sensu lato</gml:description>
+			<gml:name>5630</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id465">
+			<gml:description>Ficus benjamina  </gml:description>
+			<gml:name>5640</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id466">
+			<gml:description>Ficus carica  </gml:description>
+			<gml:name>5650</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id467">
+			<gml:description>Foeniculum vulgare Mil </gml:description>
+			<gml:name>5660</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id468">
+			<gml:description>Foeniculum vulgare Mil </gml:description>
+			<gml:name>5670</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id469">
+			<gml:description>Forsythia Vahl</gml:description>
+			<gml:name>5680</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id470">
+			<gml:description>Fragaria  </gml:description>
+			<gml:name>5690</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id471">
+			<gml:description>Fuchsia  </gml:description>
+			<gml:name>5700</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id472">
+			<gml:description>Gazania-Hybriden</gml:description>
+			<gml:name>5710</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id473">
+			<gml:description>Gentiana  </gml:description>
+			<gml:name>5720</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id474">
+			<gml:description>Gerbera  </gml:description>
+			<gml:name>5730</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id475">
+			<gml:description>Ginkgo biloba  </gml:description>
+			<gml:name>5740</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id476">
+			<gml:description>Glycine max ( ) Merr.</gml:description>
+			<gml:name>5750</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id477">
+			<gml:description>Hebe Comm. ex Juss.</gml:description>
+			<gml:name>5760</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id478">
+			<gml:description>Helianthus annuus  </gml:description>
+			<gml:name>5770</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id479">
+			<gml:description>Helianthus tuberosus  </gml:description>
+			<gml:name>5780</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id480">
+			<gml:description>Helichrysum italicum (Roth) Gussone</gml:description>
+			<gml:name>5790</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id481">
+			<gml:description>Heliotropium arborescens  </gml:description>
+			<gml:name>5800</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id482">
+			<gml:description>Helleborus  </gml:description>
+			<gml:name>5810</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id483">
+			<gml:description>Hippophae  </gml:description>
+			<gml:name>5820</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id484">
+			<gml:description>Hordeum vulgare   sensu lato</gml:description>
+			<gml:name>5830</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id485">
+			<gml:description>Hordeum vulgare   sensu lato</gml:description>
+			<gml:name>5840</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id486">
+			<gml:description>Humulus lupulus  </gml:description>
+			<gml:name>5850</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id487">
+			<gml:description>Hydrangea  </gml:description>
+			<gml:name>5860</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id488">
+			<gml:description>Hypericum androsaemum  </gml:description>
+			<gml:name>5870</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id489">
+			<gml:description>Hypericum perforatum  </gml:description>
+			<gml:name>5880</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id490">
+			<gml:description>Hyssopus officinalis  </gml:description>
+			<gml:name>5890</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id491">
+			<gml:description>Ilex  </gml:description>
+			<gml:name>5900</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id492">
+			<gml:description>Impatiens  </gml:description>
+			<gml:name>5910</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id493">
+			<gml:description>Impatiens walleriana Hybriden</gml:description>
+			<gml:name>5920</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id494">
+			<gml:description>Juglans-Hybriden</gml:description>
+			<gml:name>5930</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id495">
+			<gml:description>Kalanchoe Adans.</gml:description>
+			<gml:name>5940</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id496">
+			<gml:description>Lactuca sativa  </gml:description>
+			<gml:name>5950</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id497">
+			<gml:description>Lactuca sativa  </gml:description>
+			<gml:name>5960</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id498">
+			<gml:description>Leontopodium alpinum Cass.</gml:description>
+			<gml:name>5970</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id499">
+			<gml:description>Leucanthemum x superbum (J.W.Ingram) Bergmans ex Kent</gml:description>
+			<gml:name>5980</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id500">
+			<gml:description>Lilium  </gml:description>
+			<gml:name>5990</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id501">
+			<gml:description>Limonium Mil </gml:description>
+			<gml:name>6000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id502">
+			<gml:description>Linum usitatissimum  </gml:description>
+			<gml:name>6010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id503">
+			<gml:description>Liquidambar styraciflua  </gml:description>
+			<gml:name>6020</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id504">
+			<gml:description>Lobelia  </gml:description>
+			<gml:name>6030</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id505">
+			<gml:description>Lolium   (partim)</gml:description>
+			<gml:name>6040</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id506">
+			<gml:description>Lolium multiflorum Lam.</gml:description>
+			<gml:name>6050</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id507">
+			<gml:description>Lolium perenne  </gml:description>
+			<gml:name>6060</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id508">
+			<gml:description>Lolium x boucheanum Kunth</gml:description>
+			<gml:name>6070</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id509">
+			<gml:description>Lonicera nitida Wils.</gml:description>
+			<gml:name>6080</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id510">
+			<gml:description>Lotus corniculatus  </gml:description>
+			<gml:name>6090</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id511">
+			<gml:description>Lupinus luteus  </gml:description>
+			<gml:name>6100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id512">
+			<gml:description>Lupinus albus  </gml:description>
+			<gml:name>6110</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id513">
+			<gml:description>Lupinus angustifolius  </gml:description>
+			<gml:name>6120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id514">
+			<gml:description>Lupinus mutabilis  </gml:description>
+			<gml:name>6130</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id515">
+			<gml:description>Lupinus nanus Douglas</gml:description>
+			<gml:name>6140</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id516">
+			<gml:description>Lycopersicon lycopersicum ( ) Karsten ex Farw.</gml:description>
+			<gml:name>6150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id517">
+			<gml:description>Malus Mil </gml:description>
+			<gml:name>6160</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id518">
+			<gml:description>Malus Mil </gml:description>
+			<gml:name>6170</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id519">
+			<gml:description>Malus Mil </gml:description>
+			<gml:name>6180</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id520">
+			<gml:description>Malva verticillata  </gml:description>
+			<gml:name>6190</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id521">
+			<gml:description>Medicago lupulina  </gml:description>
+			<gml:name>6200</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id522">
+			<gml:description>Medicago sativa  </gml:description>
+			<gml:name>6210</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id523">
+			<gml:description>Melissa officinalis  </gml:description>
+			<gml:name>6220</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id524">
+			<gml:description>Nicotiana  </gml:description>
+			<gml:name>6230</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id525">
+			<gml:description>Ocimum basilicum  </gml:description>
+			<gml:name>6240</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id526">
+			<gml:description>Onobrychis viciifolia Scop.</gml:description>
+			<gml:name>6250</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id527">
+			<gml:description>Orchidaceae</gml:description>
+			<gml:name>6260</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id528">
+			<gml:description>Origanum majorana  </gml:description>
+			<gml:name>6270</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id529">
+			<gml:description>Origanum vulgare  </gml:description>
+			<gml:name>6280</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id530">
+			<gml:description>Pelargonium L'Hérit. ex Ait.</gml:description>
+			<gml:name>6290</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id531">
+			<gml:description>Pelargonium-Grandiflorum-Hybriden</gml:description>
+			<gml:name>6300</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id532">
+			<gml:description>Petroselinum crispum (Miller) Nyman ex A.W. Hill</gml:description>
+			<gml:name>6310</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id533">
+			<gml:description>Petroselinum crispum (Miller) Nyman ex A.W. Hill</gml:description>
+			<gml:name>6320</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id534">
+			<gml:description>Petunia Juss.</gml:description>
+			<gml:name>6330</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id535">
+			<gml:description>Phacelia Juss.</gml:description>
+			<gml:name>6340</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id536">
+			<gml:description>Phalaris arundinacea  </gml:description>
+			<gml:name>6350</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id537">
+			<gml:description>Phaseolus coccineus  </gml:description>
+			<gml:name>6360</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id538">
+			<gml:description>Phaseolus vulgaris  </gml:description>
+			<gml:name>6370</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id539">
+			<gml:description>Phaseolus vulgaris  </gml:description>
+			<gml:name>6380</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id540">
+			<gml:description>Phleum  </gml:description>
+			<gml:name>6390</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id541">
+			<gml:description>Physocarpus (Cambess.) Maxim.</gml:description>
+			<gml:name>6400</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id542">
+			<gml:description>Picea A. Dietr.</gml:description>
+			<gml:name>6410</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id543">
+			<gml:description>Pinus  </gml:description>
+			<gml:name>6420</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id544">
+			<gml:description>Pisum sativum   (partim)</gml:description>
+			<gml:name>6430</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id545">
+			<gml:description>Pisum sativum   (partim)</gml:description>
+			<gml:name>6440</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id546">
+			<gml:description>Pisum sativum   (partim)</gml:description>
+			<gml:name>6450</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id547">
+			<gml:description>Pisum sativum   (partim)</gml:description>
+			<gml:name>6460</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id548">
+			<gml:description>Poa  </gml:description>
+			<gml:name>6470</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id549">
+			<gml:description>Poa pratensis  </gml:description>
+			<gml:name>6480</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id550">
+			<gml:description>Populus  </gml:description>
+			<gml:name>6490</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id551">
+			<gml:description>Prunus  </gml:description>
+			<gml:name>6500</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id552">
+			<gml:description>Prunus  </gml:description>
+			<gml:name>6510</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id553">
+			<gml:description>Prunus avium ( )  </gml:description>
+			<gml:name>6520</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id554">
+			<gml:description>Prunus cerasus  </gml:description>
+			<gml:name>6530</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id555">
+			<gml:description>Prunus domestica  </gml:description>
+			<gml:name>6540</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id556">
+			<gml:description>Prunus persica ( ) Batsch</gml:description>
+			<gml:name>6550</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id557">
+			<gml:description>Prunus spinosa  </gml:description>
+			<gml:name>6560</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id558">
+			<gml:description>Pyracantha M.J. Roem.</gml:description>
+			<gml:name>6570</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id559">
+			<gml:description>Pyrus  </gml:description>
+			<gml:name>6580</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id560">
+			<gml:description>Pyrus  </gml:description>
+			<gml:name>6590</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id561">
+			<gml:description>Quercus  </gml:description>
+			<gml:name>6600</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id562">
+			<gml:description>Raphanobrassica</gml:description>
+			<gml:name>6610</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id563">
+			<gml:description>Raphanus sativus   var. niger (Miller) S. Kerner</gml:description>
+			<gml:name>6620</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id564">
+			<gml:description>Raphanus sativus   var. oleiformis Pers.</gml:description>
+			<gml:name>6630</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id565">
+			<gml:description>Raphanus sativus   var. sativus</gml:description>
+			<gml:name>6640</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id566">
+			<gml:description>Rehmannia Libosch. ex Fisch. et C. A. Mey.</gml:description>
+			<gml:name>6650</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id567">
+			<gml:description>Rhododendron  </gml:description>
+			<gml:name>6660</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id568">
+			<gml:description>Rhododendron simsii Planch.</gml:description>
+			<gml:name>6670</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id569">
+			<gml:description>Ribes  </gml:description>
+			<gml:name>6680</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id570">
+			<gml:description>Ribes  </gml:description>
+			<gml:name>6690</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id571">
+			<gml:description>Ribes nigrum  </gml:description>
+			<gml:name>6700</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id572">
+			<gml:description>Ribes x nidigrolaria R. et A. Bauer</gml:description>
+			<gml:name>6710</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id573">
+			<gml:description>Rosa  </gml:description>
+			<gml:name>6720</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id574">
+			<gml:description>Rubus  </gml:description>
+			<gml:name>6730</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id575">
+			<gml:description>Rubus  </gml:description>
+			<gml:name>6740</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id576">
+			<gml:description>Saintpaulia H. Wend </gml:description>
+			<gml:name>6750</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id577">
+			<gml:description>Salix  </gml:description>
+			<gml:name>6760</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id578">
+			<gml:description>Sanvitalia Lam.</gml:description>
+			<gml:name>6770</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id579">
+			<gml:description>Satureja hortensis  </gml:description>
+			<gml:name>6780</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id580">
+			<gml:description>Scorzonera hispanica  </gml:description>
+			<gml:name>6790</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id581">
+			<gml:description>Secale  </gml:description>
+			<gml:name>6800</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id582">
+			<gml:description>Secale  </gml:description>
+			<gml:name>6810</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id583">
+			<gml:description>Silybum marianum ( ) Gaertn.</gml:description>
+			<gml:name>6820</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id584">
+			<gml:description>Sinapis alba  </gml:description>
+			<gml:name>6830</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id585">
+			<gml:description>Sinningia Nees</gml:description>
+			<gml:name>6840</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id586">
+			<gml:description>Solanum  </gml:description>
+			<gml:name>6850</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id587">
+			<gml:description>Solanum tuberosum  </gml:description>
+			<gml:name>6860</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id588">
+			<gml:description>Spinacia oleracea  </gml:description>
+			<gml:name>6870</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id589">
+			<gml:description>Streptocarpus Lind </gml:description>
+			<gml:name>6880</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id590">
+			<gml:description>Sutera Roth</gml:description>
+			<gml:name>6890</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id591">
+			<gml:description>Symphoricarpos Duham.</gml:description>
+			<gml:name>6900</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id592">
+			<gml:description>Syringa  </gml:description>
+			<gml:name>6910</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id593">
+			<gml:description>Tagetes  </gml:description>
+			<gml:name>6920</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id594">
+			<gml:description>Tanacetum parthenium ( ) Schultz Bip.</gml:description>
+			<gml:name>6930</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id595">
+			<gml:description>Tilia  </gml:description>
+			<gml:name>6940</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id596">
+			<gml:description>Trifolium alexandrinum  </gml:description>
+			<gml:name>6950</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id597">
+			<gml:description>Trifolium hybridum  </gml:description>
+			<gml:name>6960</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id598">
+			<gml:description>Trifolium incarnatum  </gml:description>
+			<gml:name>6970</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id599">
+			<gml:description>Trifolium pratense  </gml:description>
+			<gml:name>6980</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id600">
+			<gml:description>Trifolium repens  </gml:description>
+			<gml:name>6990</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id601">
+			<gml:description>Trifolium resupinatum  </gml:description>
+			<gml:name>7000</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id602">
+			<gml:description>Trisetum flavescens ( ) P. Beauv.</gml:description>
+			<gml:name>7010</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id603">
+			<gml:description>Triticum aestivum   emend. Fiori et Pao </gml:description>
+			<gml:name>7020</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id604">
+			<gml:description>Triticum aestivum   emend. Fiori et Pao </gml:description>
+			<gml:name>7030</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id605">
+			<gml:description>Triticum durum Desf.</gml:description>
+			<gml:name>7040</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id606">
+			<gml:description>Triticum monococcum  </gml:description>
+			<gml:name>7050</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id607">
+			<gml:description>Triticum spelta  </gml:description>
+			<gml:name>7060</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id608">
+			<gml:description>Tulipa  </gml:description>
+			<gml:name>7070</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id609">
+			<gml:description>Tussilago farfara  </gml:description>
+			<gml:name>7080</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id610">
+			<gml:description>Ulmus  </gml:description>
+			<gml:name>7090</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id611">
+			<gml:description>Urtica  </gml:description>
+			<gml:name>7100</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id612">
+			<gml:description>Vaccinium  </gml:description>
+			<gml:name>7110</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id613">
+			<gml:description>Valeriana officinalis  </gml:description>
+			<gml:name>7120</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id614">
+			<gml:description>Valerianella locusta ( ) Laterr.</gml:description>
+			<gml:name>7130</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id615">
+			<gml:description>Vallisneria  </gml:description>
+			<gml:name>7140</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id616">
+			<gml:description>Vicia   (partim)</gml:description>
+			<gml:name>7150</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id617">
+			<gml:description>Vicia faba   (partim)</gml:description>
+			<gml:name>7160</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id618">
+			<gml:description>Vicia faba   (partim)</gml:description>
+			<gml:name>7170</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id619">
+			<gml:description>Vicia sativa  </gml:description>
+			<gml:name>7180</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id620">
+			<gml:description>Vinca minor  </gml:description>
+			<gml:name>7190</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id621">
+			<gml:description>Vitex agnus-castus  </gml:description>
+			<gml:name>7200</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id622">
+			<gml:description>Vitis  </gml:description>
+			<gml:name>7210</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id623">
+			<gml:description>Vitis vinifera  </gml:description>
+			<gml:name>7220</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id624">
+			<gml:description>Vriesea splendens (Brongn.) Lem.</gml:description>
+			<gml:name>7230</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id625">
+			<gml:description>Zantedeschia Spreng.</gml:description>
+			<gml:name>7240</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id626">
+			<gml:description>Zea mays  </gml:description>
+			<gml:name>7250</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id627">
+			<gml:description>x Festulolium</gml:description>
+			<gml:name>7260</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id628">
+			<gml:description>x Triticosecale Wittm.</gml:description>
+			<gml:name>7270</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id629">
+			<gml:description>x Triticosecale Wittm.</gml:description>
+			<gml:name>7280</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+	<gml:dictionaryEntry>
+		<gml:Definition gml:id="id630">
+			<gml:description>unknown</gml:description>
+			<gml:name>9999</gml:name>
+		</gml:Definition>
+	</gml:dictionaryEntry>
+</gml:Dictionary>

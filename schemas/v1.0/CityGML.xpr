@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <meta>
+        <filters directoryPatterns="" filePatterns=""
+            positiveFilePatterns="" showHiddenFiles="false"/>
+        <options/>
+    </meta>
+    <projectTree name="CityGML.xpr">
+        <folder name="CityGML_1.0.0">
+            <folder name="3.1.1">
+                <folder name="base">
+                    <file name="3.1.1/base/basicTypes.xsd"/>
+                    <file name="3.1.1/base/coordinateOperations.xsd"/>
+                    <file
+                        name="3.1.1/base/coordinateReferenceSystems.xsd"/>
+                    <file name="3.1.1/base/coordinateSystems.xsd"/>
+                    <file name="3.1.1/base/coverage.xsd"/>
+                    <file name="3.1.1/base/dataQuality.xsd"/>
+                    <file name="3.1.1/base/datums.xsd"/>
+                    <file name="3.1.1/base/defaultStyle.xsd"/>
+                    <file name="3.1.1/base/dictionary.xsd"/>
+                    <file name="3.1.1/base/direction.xsd"/>
+                    <file name="3.1.1/base/dynamicFeature.xsd"/>
+                    <file name="3.1.1/base/feature.xsd"/>
+                    <file name="3.1.1/base/geometryAggregates.xsd"/>
+                    <file name="3.1.1/base/geometryBasic0d1d.xsd"/>
+                    <file name="3.1.1/base/geometryBasic2d.xsd"/>
+                    <file name="3.1.1/base/geometryComplexes.xsd"/>
+                    <file name="3.1.1/base/geometryPrimitives.xsd"/>
+                    <file name="3.1.1/base/gml.xsd"/>
+                    <file name="3.1.1/base/gmlBase.xsd"/>
+                    <file name="3.1.1/base/grids.xsd"/>
+                    <file name="3.1.1/base/measures.xsd"/>
+                    <file name="3.1.1/base/observation.xsd"/>
+                    <file name="3.1.1/base/ReadMe.txt"/>
+                    <file name="3.1.1/base/referenceSystems.xsd"/>
+                    <file name="3.1.1/base/temporal.xsd"/>
+                    <file name="3.1.1/base/temporalReferenceSystems.xsd"/>
+                    <file name="3.1.1/base/temporalTopology.xsd"/>
+                    <file name="3.1.1/base/topology.xsd"/>
+                    <file name="3.1.1/base/units.xsd"/>
+                    <file name="3.1.1/base/valueObjects.xsd"/>
+                </folder>
+                <folder name="Profiles">
+                    <folder name="SimpleDictionary">
+                        <folder name="1.0.0">
+                            <folder name="Examples">
+                                <file
+                                    name="3.1.1/Profiles/SimpleDictionary/1.0.0/Examples/axisDirection.xml"/>
+                                <file
+                                    name="3.1.1/Profiles/SimpleDictionary/1.0.0/Examples/CodeListCityGML.xml"/>
+                                <file
+                                    name="3.1.1/Profiles/SimpleDictionary/1.0.0/Examples/dataTypesDictionary.xml"/>
+                                <file
+                                    name="3.1.1/Profiles/SimpleDictionary/1.0.0/Examples/derivedCRSType.xml"/>
+                                <file
+                                    name="3.1.1/Profiles/SimpleDictionary/1.0.0/Examples/pixelInCell.xml"/>
+                                <file
+                                    name="3.1.1/Profiles/SimpleDictionary/1.0.0/Examples/rangeMeaning.xml"/>
+                                <file
+                                    name="3.1.1/Profiles/SimpleDictionary/1.0.0/Examples/verticalDatumType.xml"
+                                />
+                            </folder>
+                            <file
+                                name="3.1.1/Profiles/SimpleDictionary/1.0.0/basicTypes.xsd"/>
+                            <file
+                                name="3.1.1/Profiles/SimpleDictionary/1.0.0/dictionary.xsd"/>
+                            <file
+                                name="3.1.1/Profiles/SimpleDictionary/1.0.0/gmlBase.xsd"/>
+                            <file
+                                name="3.1.1/Profiles/SimpleDictionary/1.0.0/gmlSimpleDictionaryProfile.xsd"
+                            />
+                        </folder>
+                    </folder>
+                </folder>
+                <folder name="smil">
+                    <file name="3.1.1/smil/smil20-language.xsd"/>
+                    <file name="3.1.1/smil/smil20.xsd"/>
+                    <file name="3.1.1/smil/xml-mod.xsd"/>
+                </folder>
+                <folder name="xlink">
+                    <file name="3.1.1/xlink/xlinks.xsd"/>
+                </folder>
+                <file name="3.1.1/readme.txt"/>
+            </folder>
+            <folder name="CityGML">
+                <file name="CityGML/appearance.xsd"/>
+                <file name="CityGML/building.xsd"/>
+                <file name="CityGML/cityFurniture.xsd"/>
+                <file name="CityGML/cityGMLBase.xsd"/>
+                <file name="CityGML/cityObjectGroup.xsd"/>
+                <file name="CityGML/generics.xsd"/>
+                <file name="CityGML/landUse.xsd"/>
+                <file name="CityGML/relief.xsd"/>
+                <file name="CityGML/texturedSurface.xsd"/>
+                <file name="CityGML/transportation.xsd"/>
+                <file name="CityGML/vegetation.xsd"/>
+                <file name="CityGML/waterBody.xsd"/>
+            </folder>
+            <folder name="Codelists">
+                <file
+                    name="Codelists/AuxiliaryTrafficAreaFunctionType.xml"/>
+                <file name="Codelists/BuildingClassType.xml"/>
+                <file name="Codelists/BuildingFuctionType.xml"/>
+                <file name="Codelists/BuildingFurnitureClassType.xml"/>
+                <file name="Codelists/BuildingFurnitureFunctionType.xml"/>
+                <file name="Codelists/BuildingFurnitureUsageType.xml"/>
+                <file name="Codelists/BuildingInstallationClassType.xml"/>
+                <file
+                    name="Codelists/BuildingInstallationFunctionType.xml"/>
+                <file name="Codelists/BuildingInstallationUsageType.xml"/>
+                <file name="Codelists/BuildingUsageType.xml"/>
+                <file name="Codelists/CityFurnitureClassType.xml"/>
+                <file name="Codelists/CityFurnitureFunctionType.xml"/>
+                <file
+                    name="Codelists/IntBuildingInstallationClassType.xml"/>
+                <file
+                    name="Codelists/IntBuildingInstallationFunctionType.xml"/>
+                <file
+                    name="Codelists/IntBuildingInstallationUsageType.xml"/>
+                <file name="Codelists/LandUseClassType.xml"/>
+                <file name="Codelists/LandUseFunctionType.xml"/>
+                <file name="Codelists/LandUseUsageType.xml"/>
+                <file name="Codelists/MimeTypeType.xml"/>
+                <file name="Codelists/PlantClassType.xml"/>
+                <file name="Codelists/PlantCoverClassType.xml"/>
+                <file name="Codelists/PlantCoverFunctionType.xml"/>
+                <file name="Codelists/PlantFunctionType.xml"/>
+                <file name="Codelists/RoofTypeType.xml"/>
+                <file name="Codelists/RoomClassType.xml"/>
+                <file name="Codelists/RoomFunctionType.xml"/>
+                <file name="Codelists/RoomUsageType.xml"/>
+                <file name="Codelists/SpeciesType.xml"/>
+                <file name="Codelists/TrafficAreaFunctionType.xml"/>
+                <file name="Codelists/TrafficAreaUsageType.xml"/>
+                <file name="Codelists/TrafficSurfaceMaterialType.xml"/>
+                <file name="Codelists/TransportationComplexClass.xml"/>
+                <file name="Codelists/TransportationComplexFunction.xml"/>
+                <file name="Codelists/TransportationComplexUsage.xml"/>
+                <file name="Codelists/WaterBodyClassType.xml"/>
+                <file name="Codelists/WaterBodyFunctionType.xml"/>
+                <file name="Codelists/WaterBodyUsageType.xml"/>
+                <file name="Codelists/WaterLevelType.xml"/>
+            </folder>
+            <folder name="Examples">
+                <file name="Examples/Appearance.xml"/>
+                <file name="Examples/GenericObjects.xml"/>
+                <file name="Examples/Groups.xml"/>
+                <file name="Examples/SimpleBuildings.xml"/>
+                <file name="Examples/TexCoord.xml"/>
+            </folder>
+            <folder name="NoiseADE">
+                <folder name="Codelists">
+                    <file
+                        name="NoiseADE/Codelists/NoiseCityFurnitureSegmentTypeType.xml"/>
+                    <file
+                        name="NoiseADE/Codelists/TransportationComplexFunctionType.xml"
+                    />
+                </folder>
+                <file name="NoiseADE/building_example.xml"/>
+                <file name="NoiseADE/cityfurniture_example.xml"/>
+                <file name="NoiseADE/CityGML-NoiseADE-0-5-0.xsd"/>
+                <file name="NoiseADE/history.txt"/>
+                <file name="NoiseADE/railway_example.xml"/>
+                <file name="NoiseADE/road_example.xml"/>
+            </folder>
+            <folder name="Schematron">
+                <file name="Schematron/referentialIntegrity.sch"/>
+            </folder>
+            <folder name="xAL">
+                <file name="xAL/OASIS%20COPYRIGHT%20NOTICE.pdf"/>
+                <file name="xAL/xAL.xsd"/>
+            </folder>
+            <file name="CityGML.xsd"/>
+            <file name="history.txt"/>
+            <file name="readme.txt"/>
+        </folder>
+    </projectTree>
+</project>

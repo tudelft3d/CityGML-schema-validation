@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Example CityGML dataset illustrating CityGML's appearance model. -->
+<!-- The dataset employs the following CityGML extension modules: Appearance, Building, and Relief. -->
+<!-- Editor: Haik Lorenz, Hasso-Plattner-Institute for IT Systems Engineering, University of Potsdam -->
+<CityModel xmlns="http://www.opengis.net/citygml/1.0" xmlns:bldg="http://www.opengis.net/citygml/building/1.0"
+    xmlns:dem="http://www.opengis.net/citygml/relief/1.0" xmlns:app="http://www.opengis.net/citygml/appearance/1.0"
+    xmlns:gml="http://www.opengis.net/gml" xmlns:xAL="urn:oasis:names:tc:ciq:xsdschema:xAL:2.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.opengis.net/citygml/building/1.0 ../CityGML/building.xsd  http://www.opengis.net/citygml/appearance/1.0 ../CityGML/appearance.xsd http://www.opengis.net/citygml/relief/1.0 ../CityGML/relief.xsd">
+    <gml:description> Simple example for an XML dataset according to CityGML, the GML application schema of the SIG 3D. This
+        dataset contains one simple building in LOD1 and LOD2 and the surrounding terrain as well as two separate appearance
+        themes: 1.) Simple building in LOD1 2.) Simple building in LOD2 3.) Digital terrain given by a TIN. 4.) Appearance theme
+        “summer”. 5.) Appearance theme “winter”. Please note, that appearances are explicitly linked to GML geometry objects using
+        URIs. Since Texture objects are modelled as features (with a unique id) they can be (and in fact are) reused. This is
+        realized using XLinks. The coordinate reference system is given in DHDN / Gauss-Krueger 3 degree (2nd zone) + normal
+        heights above sea level (DHHN92). This system is referred to by
+        srsName="urn:ogc:def:crs,crs:EPSG:6.12:31466,crs:EPSG:6.12:5783". Please note that the coordinates actually used in this
+        dataset have been trimmed for clarity reasons and thus do not match this CRS. </gml:description>
+    <gml:boundedBy>
+        <gml:Envelope srsName="urn:ogc:def:crs,crs:EPSG:6.12:31466,crs:EPSG:6.12:5783">
+            <gml:lowerCorner>-6.0 -7.0 0.0</gml:lowerCorner>
+            <gml:upperCorner>17.0 13.0 5.0</gml:upperCorner>
+        </gml:Envelope>
+    </gml:boundedBy>
+    <cityObjectMember>
+        <bldg:Building gml:id="Build0815">
+            <bldg:yearOfConstruction>2007</bldg:yearOfConstruction>
+            <bldg:measuredHeight uom="#m">5.0</bldg:measuredHeight>
+            <bldg:lod1Solid>
+                <gml:Solid>
+                    <gml:exterior>
+                        <gml:CompositeSurface gml:id="lod1Surface">
+                            <gml:surfaceMember>
+                                <gml:Polygon>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList srsDimension="3"> 0.0 0.0 0.0 10.0 0.0 0.0 10.0 0.0 4.0 0.0 0.0 4.0 0.0
+                                                0.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                            <gml:surfaceMember>
+                                <gml:Polygon>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList srsDimension="3"> 10.0 0.0 0.0 10.0 5.0 0.0 10.0 5.0 4.0 10.0 0.0 4.0
+                                                10.0 0.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                            <gml:surfaceMember>
+                                <gml:Polygon>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList srsDimension="3"> 10.0 5.0 0.0 0.0 5.0 0.0 0.0 5.0 4.0 10.0 5.0 4.0 10.0
+                                                5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                            <gml:surfaceMember>
+                                <gml:Polygon>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList srsDimension="3"> 0.0 5.0 0.0 0.0 0.0 0.0 0.0 0.0 4.0 0.0 5.0 4.0 0.0 5.0
+                                                0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                            <gml:surfaceMember>
+                                <gml:Polygon gml:id="lod1RoofPoly1">
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList srsDimension="3"> 0.0 0.0 4.0 10.0 0.0 4.0 10.0 5.0 4.0 0.0 5.0 4.0 0.0
+                                                0.0 4.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                        </gml:CompositeSurface>
+                    </gml:exterior>
+                </gml:Solid>
+            </bldg:lod1Solid>
+            <bldg:lod2Solid>
+                <gml:Solid>
+                    <gml:exterior>
+                        <gml:CompositeSurface>
+                            <gml:surfaceMember>
+                                <gml:CompositeSurface gml:id="fLeft">
+                                    <gml:surfaceMember>
+                                        <gml:Polygon>
+                                            <gml:exterior>
+                                                <gml:LinearRing gml:id="fLeftExt1">
+                                                    <gml:posList srsDimension="3"> 0.0 0.0 0.0 5.0 0.0 0.0 5.0 0.0 3.0 0.0 0.0 3.0
+                                                        0.0 0.0 0.0 </gml:posList>
+                                                </gml:LinearRing>
+                                            </gml:exterior>
+                                        </gml:Polygon>
+                                    </gml:surfaceMember>
+                                    <gml:surfaceMember>
+                                        <gml:Polygon>
+                                            <gml:exterior>
+                                                <gml:LinearRing gml:id="fLeftExt2">
+                                                    <gml:posList srsDimension="3"> 5.0 0.0 0.0 10.0 0.0 0.0 10.0 0.0 3.0 5.0 0.0
+                                                        3.0 5.0 0.0 0.0 </gml:posList>
+                                                </gml:LinearRing>
+                                            </gml:exterior>
+                                        </gml:Polygon>
+                                    </gml:surfaceMember>
+                                </gml:CompositeSurface>
+                            </gml:surfaceMember>
+                            <gml:surfaceMember>
+                                <gml:Polygon gml:id="fFront">
+                                    <gml:exterior>
+                                        <gml:LinearRing gml:id="fFrontExt">
+                                            <gml:posList srsDimension="3"> 10.0 0.0 0.0 10.0 5.0 0.0 10.0 5.0 3.0 10.0 2.5 5.0
+                                                10.0 0.0 3.0 10.0 0.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                            <gml:surfaceMember>
+                                <gml:Polygon gml:id="fRight">
+                                    <gml:exterior>
+                                        <gml:LinearRing gml:id="fRightExt">
+                                            <gml:posList srsDimension="3"> 10.0 5.0 0.0 0.0 5.0 0.0 0.0 5.0 3.0 10.0 5.0 3.0 10.0
+                                                5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                            <gml:surfaceMember>
+                                <gml:Polygon gml:id="fBack">
+                                    <gml:exterior>
+                                        <gml:LinearRing gml:id="fBackExt">
+                                            <gml:posList srsDimension="3"> 0.0 5.0 0.0 0.0 0.0 0.0 0.0 0.0 3.0 0.0 2.5 5.0 0.0 5.0
+                                                3.0 0.0 5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                            <gml:surfaceMember>
+                                <gml:Polygon gml:id="lod2RoofPoly1">
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList srsDimension="3"> 0.0 0.0 3.0 10.0 0.0 3.0 10.0 2.5 5.0 0.0 2.5 5.0 0.0
+                                                0.0 3.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                            <gml:surfaceMember>
+                                <gml:Polygon gml:id="lod2RoofPoly2">
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList srsDimension="3"> 10.0 5.0 3.0 0.0 5.0 3.0 0.0 2.5 5.0 10.0 2.5 5.0 10.0
+                                                5.0 3.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gml:surfaceMember>
+                        </gml:CompositeSurface>
+                    </gml:exterior>
+                </gml:Solid>
+            </bldg:lod2Solid>
+        </bldg:Building>
+    </cityObjectMember>
+    <cityObjectMember>
+        <dem:ReliefFeature gml:id="DTM_1">
+            <dem:lod>1</dem:lod>
+            <dem:reliefComponent>
+                <dem:TINRelief gml:id="GUID_04D4DsNGv1MfvYu5O3lkcW">
+                    <gml:name>Ground</gml:name>
+                    <dem:lod>1</dem:lod>
+                    <dem:tin>
+                        <gml:TriangulatedSurface gml:id="ground">
+                            <gml:trianglePatches>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> -6.0 5.0 0.0 0.0 5.0 0.0 -6.0 9.0 0.0 -6.0 5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 0.0 5.0 0.0 0.0 12.0 0.0 -6.0 9.0 0.0 0.0 5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 0.0 5.0 0.0 6.0 11.0 0.0 0.0 12.0 0.0 0.0 5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 0.0 5.0 0.0 10.0 5.0 0.0 6.0 11.0 0.0 0.0 5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 10.0 5.0 0.0 11.0 13.0 0.0 6.0 11.0 0.0 10.0 5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 10.0 5.0 0.0 15.0 8.0 0.0 11.0 13.0 0.0 10.0 5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 10.0 5.0 0.0 17.0 2.5 0.0 15.0 8.0 0.0 10.0 5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 10.0 5.0 0.0 10.0 0.0 0.0 17.0 2.5 0.0 10.0 5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 10.0 0.0 0.0 17.0 -3.0 0.0 17.0 2.5 0.0 10.0 0.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 10.0 0.0 0.0 14.0 -7.0 0.0 17.0 -3.0 0.0 10.0 0.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 10.0 0.0 0.0 5.0 -6.0 0.0 14.0 -7.0 0.0 10.0 0.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 10.0 0.0 0.0 0.0 0.0 0.0 5.0 -6.0 0.0 10.0 0.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 0.0 0.0 0.0 -1.0 -4.0 0.0 5.0 -6.0 0.0 0.0 0.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 0.0 0.0 0.0 -5.0 0.0 0.0 -1.0 -4.0 0.0 0.0 0.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 0.0 0.0 0.0 0.0 5.0 0.0 -5.0 0.0 0.0 0.0 0.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                                <gml:Triangle>
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:posList> 0.0 5.0 0.0 -6.0 5.0 0.0 -5.0 0.0 0.0 0.0 5.0 0.0 </gml:posList>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Triangle>
+                            </gml:trianglePatches>
+                        </gml:TriangulatedSurface>
+                    </dem:tin>
+                </dem:TINRelief>
+            </dem:reliefComponent>
+        </dem:ReliefFeature>
+    </cityObjectMember>
+    <app:appearanceMember>
+        <app:Appearance>
+            <app:theme>Summer</app:theme>
+            <app:surfaceDataMember>
+                <app:X3DMaterial gml:id="lod1Material">
+                    <app:diffuseColor>1.0 0.6 0.0</app:diffuseColor>
+                    <app:target>#lod1Surface</app:target>
+                </app:X3DMaterial>
+            </app:surfaceDataMember>
+            <app:surfaceDataMember>
+                <app:GeoreferencedTexture>
+                    <app:imageURI>ground_summer.png</app:imageURI>
+                    <app:wrapMode>none</app:wrapMode>
+                    <app:referencePoint>
+                        <gml:Point>
+                            <gml:pos> -5.0 -5.0 </gml:pos>
+                        </gml:Point>
+                    </app:referencePoint>
+                    <app:orientation> 0.05 0.0 0.0 0.066667 </app:orientation>
+                    <app:target>#ground</app:target>
+                    <app:target>#lod1RoofPoly1</app:target>
+                    <app:target>#lod2RoofPoly1</app:target>
+                    <app:target>#lod2RoofPoly2</app:target>
+                </app:GeoreferencedTexture>
+            </app:surfaceDataMember>
+            <app:surfaceDataMember>
+                <app:ParameterizedTexture gml:id="sideTexture">
+                    <app:imageURI>facade.png</app:imageURI>
+                    <app:wrapMode>wrap</app:wrapMode>
+                    <app:target uri="#fLeft">
+                        <app:TexCoordList>
+                            <app:textureCoordinates ring="#fLeftExt1">0.0 0.0 2.0 0.0 2.0 1.0 0.0 1.0 0.0 0.0</app:textureCoordinates>
+                            <app:textureCoordinates ring="#fLeftExt2">2.0 0.0 4.0 0.0 4.0 1.0 2.0 1.0 2.0
+                            0.0</app:textureCoordinates>
+                        </app:TexCoordList>
+                    </app:target>
+                    <app:target uri="#fRight">
+                        <app:TexCoordGen>
+                            <app:worldToTexture> -0.4 0.0 0.0 1.0 0.0 0.0 0.3333 0.0 0.0 0.0 0.0 1.0 </app:worldToTexture>
+                        </app:TexCoordGen>
+                    </app:target>
+                </app:ParameterizedTexture>
+            </app:surfaceDataMember>
+            <app:surfaceDataMember>
+                <app:ParameterizedTexture>
+                    <app:imageURI>front_back_summer.png</app:imageURI>
+                    <app:wrapMode>none</app:wrapMode>
+                    <app:target uri="#fFront">
+                        <app:TexCoordList gml:id="frontTexCoord">
+                            <app:textureCoordinates ring="#fFrontExt">0.0 0.0 0.5 0.0 0.5 0.6 0.25 1.0 0.0 0.6 0.0
+                            0.0</app:textureCoordinates>
+                        </app:TexCoordList>
+                    </app:target>
+                    <app:target uri="#fBack">
+                        <app:TexCoordList gml:id="backTexCoord">
+                            <app:textureCoordinates ring="#fBackExt">0.5 0.0 1.0 0.0 1.0 0.6 0.75 1.0 0.5 0.6 0.5
+                            0.0</app:textureCoordinates>
+                        </app:TexCoordList>
+                    </app:target>
+                </app:ParameterizedTexture>
+            </app:surfaceDataMember>
+        </app:Appearance>
+    </app:appearanceMember>
+    <app:appearanceMember>
+        <app:Appearance>
+            <app:theme>Winter</app:theme>
+            <app:surfaceDataMember>
+                <app:GeoreferencedTexture>
+                    <app:imageURI>ground_winter.png</app:imageURI>
+                    <app:wrapMode>none</app:wrapMode>
+                    <app:referencePoint>
+                        <gml:Point>
+                            <gml:pos> -5.0 -5.0 </gml:pos>
+                        </gml:Point>
+                    </app:referencePoint>
+                    <app:orientation> 0.05 0.0 0.0 0.066667 </app:orientation>
+                    <app:target>#ground</app:target>
+                    <app:target>#lod1RoofPoly1</app:target>
+                    <app:target>#lod2RoofPoly1</app:target>
+                    <app:target>#lod2RoofPoly2</app:target>
+                </app:GeoreferencedTexture>
+            </app:surfaceDataMember>
+            <app:surfaceDataMember xlink:href="#lod1Material"/>
+            <app:surfaceDataMember xlink:href="#sideTexture"/>
+            <app:surfaceDataMember>
+                <app:ParameterizedTexture>
+                    <app:imageURI>front_back_winter.png</app:imageURI>
+                    <app:wrapMode>none</app:wrapMode>
+                    <app:target uri="#fFront" xlink:href="#frontTexCoord"/>
+                    <app:target uri="#fBack" xlink:href="#backTexCoord"/>
+                </app:ParameterizedTexture>
+            </app:surfaceDataMember>
+        </app:Appearance>
+    </app:appearanceMember>
+</CityModel>

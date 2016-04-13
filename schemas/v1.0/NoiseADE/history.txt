@@ -1,0 +1,33 @@
+History of Changes and Additions to the CityGML Noise ADE Schema
+<!-- History: 12/01/07, D. Doerschlag, IGG: The following element and type names have been changed:
+    noiseCityFurnitureSegment -> NoiseCityFurnitureSegment
+    NoiseCityFurnitureSegmentProperty -> noiseCityFurnitureSegmentProperty
+    refection -> reflection
+    refectionCorrection -> reflectionCorrection
+    noiseRoadSegment -> NoiseRoadSegment
+    NoiseRoadSegmentProperty -> noiseRoadSegmentProperty
+    train -> Train
+    noiseRailwaySegment -> NoiseRailwaySegment
+    NoiseRailwaySegmentProperty -> noiseRailwaySegmentProperty
+    BuildingReflection -> buildingReflection
+    BuildingReflectionCorrection -> buildingReflectionCorrection
+    BuildingLDenMax -> buildingLDenMax
+    BuildingLDenMin -> buildingLDenMin
+    BuildingLDenEq -> buildingLDenEq
+    BuildingLNightMax -> buildingLNightMax
+    BuildingLNightMin -> buildingLNightMin
+    BuildingLNightEq -> buildingLNightEq
+    BuildingHabitants -> buildingHabitants
+    BuildingAppartments -> buildingAppartments
+    BuildingAnzahlenAufpunkte -> buildingAnzahlenAufpunkte
+    -->
+<!-- History: 12/01/07, D. Doerschlag, IGG: Adaption of root tag:
+    elementFormDefault="qualified" attributeFormDefault="unqualified"
+    -->
+<!-- History: 26/01/07, Jens Fitzke, lat/lon: because of uom attribute xsd:double changed to gml:MeasureType (multiple occurences) -->
+<!-- History: 22/03/07,  G. Groeger: NoiseRoadSegment, NoiseRailwaySegment, and NoiseCityFurnitureSegment declared as global elements -->
+<!-- History: 17/05/08, C. Nagel: removed the following commented elements from NoiseRoadSegmentType:
+    <xsd:element name="dtvDay" type="xsd:double" minOccurs="0" maxOccurs="1"/>
+    <xsd:element name="dtvEvening" type="xsd:double" minOccurs="0" maxOccurs="1"/>
+    <xsd:element name="dtvNight" type="xsd:double" minOccurs="0" maxOccurs="1"/>
+    -->
