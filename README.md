@@ -6,5 +6,6 @@ To use:
 
 `$ ./valxsdcitygml.py input.gml`
 
+or you can also give a folder and all XML and GML files in that folder (and in all the folders inside that one)
 
-
+`$ ./valxsdcitygml.py /home/elvis/data/`
