@@ -62,11 +62,11 @@ def validateallinfolder(myfolder):
         else:
             myresults.append(False)    
     valid = 0
-    # for i,f in enumerate(myfiles):
+    for i,f in enumerate(myfiles):
     #     print f
-    #     if myresults[i] == True:
+        if myresults[i] == True:
     #         print 1
-    #         valid += 1
+            valid += 1
     #     else:
     #         print 0
     print myfolder, valid, "/", len(myfiles)
