@@ -60,7 +60,7 @@ def validateallinfolder(myfolder):
         if validateonefiletruefalse(f) == True:
             myresults.append(True)
         else:
-            myresults.append(False)    
+            myresults.append(False)
     valid = 0
     for i,f in enumerate(myfiles):
         print f
@@ -80,24 +80,34 @@ def getXML(fIn):
     root = doc.getroot()
     citygmlversion = ""
     for key in root.nsmap.keys():
-        if root.nsmap[key].find('www.opengis.net/citygml') != -1:
-            if (root.nsmap[key][-3:] == '0.4'):
-                citygmlversion = '0.4'
+        if root.nsmap[key].find('www.geostandaarden.nl/imgeo') != -1:
+            if (root.nsmap[key][-3:] == '2.1'):
+                citygmlversion = 'imgeo2.1.1'
                 break
-            if (root.nsmap[key][-3:] == '1.0'):
-                citygmlversion = '1.0'
-                break
-            if (root.nsmap[key][-3:] == '2.0'):
-                citygmlversion = '2.0'
-                break
+    if citygmlversion == "":
+        for key in root.nsmap.keys():
+            if root.nsmap[key].find('www.opengis.net/citygml') != -1:
+                if (root.nsmap[key][-3:] == '0.4'):
+                    citygmlversion = '0.4'
+                    break
+                if (root.nsmap[key][-3:] == '1.0'):
+                    citygmlversion = '1.0'
+                    break
+                if (root.nsmap[key][-3:] == '2.0'):
+                    citygmlversion = '2.0'
+                    break
     if citygmlversion == "":
         return None, None
     if citygmlversion == "0.4":
         xsd = etree.parse("./schemas/v0.4/CityGML.xsd")
     elif citygmlversion == "1.0":
         xsd = etree.parse("./schemas/v1.0/CityGML.xsd")
-    else:
+    elif citygmlversion == "2.0":
         xsd = etree.parse("./schemas/v2.0/CityGML.xsd")
+    elif citygmlversion == "imgeo2.1.1":
+        xsd = etree.parse("./schemas/v2.0/ADEs/IMGeoADE/imgeo.xsd")
+    else:
+        return None, None
     return doc, xsd
 
 
