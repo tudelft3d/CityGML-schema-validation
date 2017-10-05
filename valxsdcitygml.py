@@ -76,7 +76,12 @@ def validateallinfolder(myfolder):
 
 def getXML(fIn):
     parser = etree.XMLParser(ns_clean=True)
-    doc = etree.parse(fIn)    
+    try:
+        doc = etree.parse(fIn)    
+    except:
+        doc = None
+        xsd = None
+        return doc, xsd   
     root = doc.getroot()
     citygmlversion = ""
     for key in root.nsmap.keys():
